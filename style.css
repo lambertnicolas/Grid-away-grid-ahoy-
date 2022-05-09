@@ -19,6 +19,24 @@ main {
   grid-row-gap: 30px;
 }
 
+@media screen and (max-width: 1400px) {
+  .cases {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-row-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .cases {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-row-gap: 30px;
+  }
+}
+
 .case1 {
   width: 270px;
   height: 400px;
